@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/customborder2"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ff1"/>
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="33dp"
+        android:layout_marginTop="20dp"
+        android:text="How to Win at Football Betting"
+        android:textColor="#FFAB00"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tt2"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="15dp"
+                android:text="1. Only trustworthy tippers should be followed."
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt3"
+                android:layout_below="@id/tt2"
+                android:layout_marginTop="20dp"
+                android:text="@string/tip1"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt4"
+                android:layout_below="@id/tt3"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="15dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="2. Make use of a comprehensive football statistics database."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt5"
+                android:layout_below="@id/tt4"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/tip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt6"
+                android:layout_below="@id/tt5"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="15dp"
+                android:text="3. Use matched betting to take advantage of bonus incentives."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt7"
+                android:layout_below="@id/tt6"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/tip3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt8"
+                android:layout_below="@id/tt7"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:text="4. Arbitrage betting on football bets for a sure win"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt9"
+                android:layout_below="@id/tt8"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/tip4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt10"
+                android:layout_below="@id/tt9"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:text="5. Value betting is the best football betting approach."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tt11"
+                android:layout_below="@id/tt10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="@string/tip5"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tt11"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#FFD600"
+                android:text="BACK"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

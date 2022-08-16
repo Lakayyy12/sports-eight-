@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clipToPadding="false"
+        android:foregroundGravity="center"
+        android:overScrollMode="never" />
+
+    <ScrollView
+        android:layout_below="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tip1"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="OTHER TIPS TO WIN"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:backgroundTint="#B8FD7C"/>
+
+
+            <ImageView
+                android:id="@+id/im1"
+                android:layout_below="@+id/tip1"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/customborder2"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner1" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_below="@+id/im1"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#B8FD7C"
+                android:text="ABOUT US"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/im2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/btn1"
+                android:background="@drawable/customborder2"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner2" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
